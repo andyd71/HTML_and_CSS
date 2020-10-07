@@ -1,0 +1,83 @@
+body {
+    background-color: #fff;
+}
+h1 {
+    color:rgba(0, 141, 145, 1);
+    margin-left: 100px;
+    text-shadow: 1px .5px 4px rgba(0, 0, 0, 0.4);
+}
+.container {
+    width: 450px;
+    height: 450px;
+    background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 5% ;
+
+}
+
+.container .squares:nth-child(-n+4) {
+
+    background-image: url("../images/icons/icon1.png");
+    color:#fff;
+    float:left;
+    width:100px;
+    height:100px;
+    margin:5px;
+    border:1px solid black;
+    border-radius:25%;
+    cursor: pointer;
+    transition:transform .5s ease-in-out;
+
+}
+.squares:nth-child(-n+4) p{
+    font-family: "Helvetica", Arial,sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align:center;
+    margin:0;
+    text-shadow: 1px .5px 4px rgba(0, 0, 0, 0.4);
+} 
+.squares:nth-child(1) {
+    background-color:blue;
+
+} 
+.squares:nth-child(2) {
+    background-color:violet;
+}
+.squares:nth-child(3) {
+    background-color:darkred;
+}
+.squares:nth-child(4) {
+    background-color:green;
+}
+.container .squares:nth-child(-n+4):hover {
+    background-image: url("../images/icons/icon2.png");
+    transform:scale(.5);
+    animation-name: race;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(2.5,.4,.3,2);
+} 
+
+.squares:nth-child(1):hover {
+    background-color: red;
+}
+.squares:nth-child(2):hover {
+    background-color:yellow;
+}
+.squares:nth-child(3):hover {
+    background-color: lightblue;
+}
+.squares:nth-child(4):hover {
+    background-color: orange;
+}
+
+@keyframes race {
+ 0%  100% {
+   transform: translateY(0px);
+   background-image: url("../images/icons/icon1.png");
+ } 
+ 50% {
+    transform: translateY(330px);  
+ }
+}

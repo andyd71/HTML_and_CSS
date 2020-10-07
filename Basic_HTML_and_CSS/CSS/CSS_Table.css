@@ -1,0 +1,9 @@
+table {
+	border: 2px solid yellow;
+	background-color: blue;
+	color: yellow;
+}
+td:hover {
+	color: red;
+	background-color: black;
+}

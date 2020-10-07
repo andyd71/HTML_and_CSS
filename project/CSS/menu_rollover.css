@@ -1,0 +1,68 @@
+body {
+    background-color: darkblue;
+}
+.wrap {
+    top:0;
+    left:0;
+    height:auto;
+    /*height:auto means that the page can be as tall as it needs to be*/
+    width:100%;
+}
+.menu-container {
+    top:0;
+    left:0;
+    /*top:0 and left:0 means that the menu is as far in the corner as it can go*/
+    position: absolute;
+    width: 100%;
+    background-color: blue;
+
+}
+.menu {
+    font: 16px sans-serif;
+    text-align:center;
+    display:inline;
+    margin:0;
+    padding:0;
+    list-style:0;
+}
+.menu li {
+    color: gray;
+    display:inline-block;
+    margin-right: -2px;
+    position: relative;
+    padding: 12px 40px;
+    border: 1px solid darkblue;
+    border-radius: 1.5px;
+    background-color: blue;
+    cursor:pointer;
+}
+.menu li:hover {
+    background-color: blue;
+    color:white;
+}
+
+.menu li:hover ul{
+    display:block;
+    opacity:1;
+    visibility: visible;
+}
+
+.sub-menu {
+    padding: 0;
+    left: 0;
+    position: absolute;
+    top: 43.5px;
+    width: 125.5px;
+    opacity: 0;
+    visibility: hidden;
+}
+.sub-menu li{
+    background-color: aqua;
+    display: block;
+    color: blueviolet;
+}
+.sub-menu li :hover {
+    color: white;
+    background-color: aqua;
+}
+
