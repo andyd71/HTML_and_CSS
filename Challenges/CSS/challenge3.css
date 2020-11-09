@@ -1,0 +1,27 @@
+body {
+    background-color: bisque;
+}
+
+
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+}
+
+
+
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+th {
+    background-color: blue;
+    color: yellow;
+}
+td {
+    background-color: red;
+    color: yellow;
+}

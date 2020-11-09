@@ -1,0 +1,15 @@
+h2, p {
+    color: brown;
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+p:hover {
+    color: red;
+    background-color: yellow;
+    font-weight: bold;
+
+}
