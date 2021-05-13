@@ -28,8 +28,6 @@ h3 {
 	width: fit-content;
 	margin: auto;
 	margin-bottom: 30px;
-	margin-top: 30px;
-	
 }
 }
 h2 {
@@ -59,7 +57,7 @@ p  {
 	color: yellow;
 	border-radius: 8px;
 	margin: 3px;
-	width: 250px;
+	width: 150px;
 }
 
 #terms {
@@ -87,7 +85,7 @@ iframe {
     padding: 5px;
     border-radius: 2px;
 	margin: 0px auto;
-	background-color: yellow;
+	background-color: rgba(100, 65, 0, .3);
     box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.5);
 }
 

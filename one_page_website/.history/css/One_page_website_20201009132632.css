@@ -1,0 +1,50 @@
+h1 {
+	color : yellow;
+	text-align : center;
+	font-weight : bold;
+	background : red;
+}
+h3 {
+	color : yellow;
+	text-align : center;
+	background : red;
+}
+h2 {
+	color : yellow;
+	background : red;
+}
+p  {
+	color : red;
+	background: yellow;
+	border: 2px solid red;
+	border-radius: 8px;
+	font-size: 16px;
+	font-weight: 900;
+	width: fit-content;
+}
+
+ input {
+	border: 2px solid red;
+}
+	
+
+    
+}
+
+#flex-container {
+	display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    border-radius: 2px;
+	margin: 0px auto;
+	background-color: rgba(100, 65, 0, .3);
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+#flex-container img {
+	border: 3px solid red;
+	width: 260px;
+	height: 180px;
+	border-radius: 8px;
+}
