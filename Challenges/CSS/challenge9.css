@@ -1,0 +1,17 @@
+body {
+    background-color: aquamarine;
+}
+
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+}
+
+video {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    margin-left: 25%;
+}

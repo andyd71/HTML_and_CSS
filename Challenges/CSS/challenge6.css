@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+/* The above code places the two colums 
+next to each other*/
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10%;
+    height: 300px;
+
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+h2, p {
+    color: royalblue;
+    text-align: center;
+}
+
+h2 {
+   text-decoration: underline; 
+}
